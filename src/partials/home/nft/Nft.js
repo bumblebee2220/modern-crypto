@@ -55,8 +55,8 @@ function Nft() {
 				</div>
 				<ul className="list">
 					{data.map((item, idx) => (
-						<li>
-							<NFTCard item={item} key={idx} />
+						<li key={idx}>
+							<NFTCard item={item}  />
 						</li>
 					))}
 				</ul>
